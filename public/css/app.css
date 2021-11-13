@@ -6241,7 +6241,7 @@ button {
 }
 
 .div2hdr2 a:nthchild(2) {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .div2hdr2 a, .div3hdr2 a {
@@ -6313,6 +6313,99 @@ button {
 
 .div2section2 {
   width: 60%;
+  color: #7f7faf;
+  margin-bottom: 5%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #302c2c;
+}
+
+.div1footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  width: 100%;
+  border-bottom: 1px solid #7f7faf;
+}
+
+.div2footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div2footer img {
+  width: 50%;
+  margin: 10%;
+}
+
+.div3footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div1div1, .div2div1, .div3div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.div1div1, .div2div1 {
+  padding-right: 5%;
+}
+
+.div1div1 img, .div2div1 img, .div3div1 img {
+  width: 20px;
+  padding-right: 6%;
+}
+
+.div1div1 a, .div2div1 a, .div3div1 a {
+  color: white;
+}
+
+.div3footer p {
   color: #7f7faf;
 }
 /*# sourceMappingURL=app.css.map */
