@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6190,7 +6191,8 @@ button, input {
 }
 
 button {
-  background-color: green;
+  background-color: #56c056;
+  color: white;
 }
 
 .header2 {
@@ -6257,6 +6259,60 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 10%;
+  width: 20%;
+}
+
+.section1, .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div1section1 {
+  font-size: 40px;
+  mergin: 5%;
+}
+
+.div2section1 {
+  width: 60%;
+}
+
+.div2section1, .div3section1 {
+  color: #7f7faf;
+}
+
+.div3section1 {
+  width: 55%;
+}
+
+.div3section1 > ul > li {
+  margin-top: 3%;
+}
+
+.div3section1 > ul > li::before {
+  content: "•";
+  color: purple;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.div1section2 {
+  font-size: 25px;
+}
+
+.div2section2 {
+  width: 60%;
+  color: #7f7faf;
 }
 /*# sourceMappingURL=app.css.map */
