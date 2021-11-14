@@ -6233,39 +6233,37 @@ button {
           align-items: center;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (width: 425px) {
   .header2 {
-    font-size: 25px;
+    font-size: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border-bottom: 1px dotted black;
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (width: 375px) {
+  .header2 {
+    font-size: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: 1px dotted black;
+  }
+}
+
+@media screen and (width: 768px) {
   .header2 {
     font-size: 10px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .header2 {
-    font-size: 10px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
   .header2 {
     font-size: 12px;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .header2:nthchild(3) {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
   }
 }
 
@@ -6302,7 +6300,22 @@ button {
   padding-right: 10%;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (width: 425px) {
+  .div2hdr2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (width: 375px) {
   .div2hdr2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6326,6 +6339,18 @@ button {
   color: black;
 }
 
+@media screen and (width: 425px) {
+  .div2hdr2 a, .div3hdr2 a {
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div2hdr2 a, .div3hdr2 a {
+    padding-bottom: 3%;
+  }
+}
+
 .div3hdr2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6337,6 +6362,18 @@ button {
       -ms-flex-align: center;
           align-items: center;
   width: 20%;
+}
+
+@media screen and (width: 425px) {
+  .div3hdr2 {
+    width: 70%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div3hdr2 {
+    width: 70%;
+  }
 }
 
 .section1, .section2 {
@@ -6360,13 +6397,25 @@ button {
   mergin: 5%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width: 425px) {
+  .div1section1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div1section1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (width: 768px) {
   .div1section1 {
     font-size: 20px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
   .div1section1 {
     font-size: 20px;
   }
@@ -6400,13 +6449,33 @@ button {
   font-size: 25px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) {
+  .div1section2 {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div1section2 {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 768px) {
   .div1section2 {
     font-size: 15px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
+  .div1section2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (width: 1440px) {
   .div1section2 {
     font-size: 20px;
   }
@@ -6468,6 +6537,18 @@ footer {
   margin: 10%;
 }
 
+@media screen and (width: 425px) {
+  .div2footer img {
+    width: 25%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div2footer img {
+    width: 25%;
+  }
+}
+
 .div3footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6502,8 +6583,32 @@ footer {
   padding-right: 6%;
 }
 
+@media screen and (width: 425px) {
+  .div1div1 img, .div2div1 img, .div3div1 img {
+    width: 25%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div1div1 img, .div2div1 img, .div3div1 img {
+    width: 25%;
+  }
+}
+
 .div1div1 a, .div2div1 a, .div3div1 a {
   color: white;
+}
+
+@media screen and (width: 425px) {
+  .div1div1 a, .div2div1 a, .div3div1 a {
+    font-size: 6px;
+  }
+}
+
+@media screen and (width: 375px) {
+  .div1div1 a, .div2div1 a, .div3div1 a {
+    font-size: 6px;
+  }
 }
 
 .div3footer p {
@@ -6523,6 +6628,18 @@ footer {
 }
 
 @media screen and (width: 768px) {
+  .div3footer p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .div3footer p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (width: 1440px) {
   .div3footer p {
     font-size: 10px;
   }
