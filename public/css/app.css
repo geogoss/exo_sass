@@ -6330,6 +6330,10 @@ button {
   }
 }
 
+.asouligne {
+  text-decoration: underline !important;
+}
+
 .div2hdr2 a:nthchild(2) {
   text-decoration: underline !important;
 }
