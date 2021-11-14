@@ -3,18 +3,27 @@
 header
     display: flex
     flex-direction: column
+    width: 100%
 
 .header1
     background-color: purple
     display: flex
     align-items: center
-    @media screen and (min-width: 768px)
+    width: 100%
+
+    @media screen and (width: 768px)
         font-size: 10px;
     
-    @media screen and (min-width: 1024px)
+    @media screen and (width: 1024px)
         font-size: 12px;
 
-    
+.span1
+    @media screen and (width: 375px)
+                display: none
+
+    @media screen and (width: 425px)
+                display: none
+ 
 
 .div1hdr1
     display: flex
